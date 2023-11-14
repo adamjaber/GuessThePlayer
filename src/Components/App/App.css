@@ -1,0 +1,30 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+.main-content {
+    display: flex;
+    align-items: center; /* This will vertically center the children if they are shorter than 100vh */
+    justify-content: center; /* This will horizontally center the children */
+    /* background-color: rgb(19, 18, 18); */
+    background: radial-gradient(circle at 81% 50%, rgba(64, 114, 193, 1) 23%, rgba(97, 103, 127, 0.9) 100%);
+}
+  .main-div {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+ .center-div{
+    height: 100vh;
+    width: 30%;
+    align-items: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    background: rgb(189, 223, 235);
+}
+  
